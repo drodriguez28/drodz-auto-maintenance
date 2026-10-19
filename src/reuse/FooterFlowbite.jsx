@@ -1,28 +1,14 @@
 import React from "react";
-import {
-  Footer,
-  FooterCopyright,
-  FooterLink,
-  FooterLinkGroup,
-} from "flowbite-react";
+import { Footer, FooterCopyright } from "flowbite-react";
 
 const FooterFlowbite = () => {
   return (
-    <Footer container className="mt-5 !bg-red-800">
+    <Footer container className="mt-5 !bg-garage-900 !rounded-none border-t border-garage-700">
       <FooterCopyright
         by="Deivid R. Business Web™"
         year={new Date().getFullYear()}
-        className="!text-white"
+        className="!text-gray-400"
       />
-      {/* <FooterLinkGroup>
-        <FooterLink
-          href="https://www.linkedin.com/in/deivid-rodriguez-635875186/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </FooterLink>
-      </FooterLinkGroup> */}
     </Footer>
   );
 };
