@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Cinzel:wght@400;700&display=swap');
+
+:root {
+  --burgundy: #6b0f1a;
+}
+
+/* ── LOGO CARD ── */
+.logo-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 400px;
+  padding: 12px 16px;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+/* ── PUG IMAGE ── */
+.pug-wrap {
+  flex: 0 0 auto;
+  width: 80px;
+}
+
+.pug-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── TEXT BLOCK ── */
+.text-block {
+  flex: 1;
+  min-width: 0;
+}
+
+.brand-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 42px;
+  color: white;
+  line-height: 1;
+  margin: 0;
+}
+
+.sub-title {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+/* Hide elements not needed */
+.corner,
+.divider,
+.rule-wrap,
+.tagline,
+.paw-row {
+  display: none;
+}
+
+/* ── SMALL SIZE FOR NAVBAR ── */
+.logo-card-small {
+  max-width: 350px;
+  gap: 12px;
+  padding: 10px 14px;
+}
+
+.logo-card-small .pug-wrap {
+  width: 60px;
+}
+
+.logo-card-small .brand-name {
+  font-size: 32px;
+}
+
+.logo-card-small .sub-title {
+  font-size: 10px;
+}
+
+/* ── MOBILE ── */
+@media (max-width: 540px) {
+  .logo-card-small {
+    max-width: 200px;
+    gap: 8px;
+    padding: 8px 12px;
+  }
+  
+  .logo-card-small .pug-wrap {
+    width: 40px;
+  }
+  
+  .logo-card-small .brand-name {
+    font-size: 20px;
+  }
+  
+  .logo-card-small .sub-title {
+    font-size: 7px;
+    letter-spacing: 0.2em;
+  }
+}
