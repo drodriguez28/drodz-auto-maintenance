@@ -23,8 +23,7 @@ export const OilSection = ({ engines, modelName }) => {
   const uses016 = engines.some((e) => e.viscosity === "0W-16");
 
   return (
-    <section className="mt-12 text-left">
-      <h2 className="mb-2 text-3xl font-bold text-white">Recommended Engine Oil</h2>
+    <div className="text-left">
       <p className="mb-6 text-gray-400">Match the viscosity for your {modelName}'s engine.</p>
 
       <div className="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2">
@@ -90,7 +89,7 @@ export const OilSection = ({ engines, modelName }) => {
         Ratings are our opinion, not lab tests. Any oil with the right viscosity and spec on the bottle
         works. Check the label and your owner's manual.
       </p>
-    </section>
+    </div>
   );
 };
 

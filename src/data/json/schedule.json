@@ -1,0 +1,106 @@
+{
+  "base": [
+    {
+      "service": "Engine oil & filter",
+      "interval": "Every 5,000–10,000 mi / 6–12 mo",
+      "note": "Shorter interval for conventional oil or severe driving.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Tire rotation",
+      "interval": "Every 5,000–7,500 mi",
+      "note": "Check tire pressure and tread at the same time.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Brake inspection",
+      "interval": "Every 10,000 mi / 12 mo",
+      "note": "Pads, rotors, and lines.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Engine air filter",
+      "interval": "Every 15,000–30,000 mi",
+      "note": "Replace sooner in dusty conditions.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Cabin air filter",
+      "interval": "Every 15,000–20,000 mi",
+      "note": "Replace if airflow drops or the A/C smells musty.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Battery check",
+      "interval": "Yearly after year 3",
+      "note": "Clean terminals and test charge.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Brake fluid",
+      "interval": "Every 2–3 years",
+      "note": "Brake fluid absorbs moisture over time.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Drive belt inspection",
+      "interval": "Around 60,000 mi",
+      "note": "Look for cracks and glazing.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Transmission fluid",
+      "interval": "Every 60,000–100,000 mi",
+      "note": "Varies by transmission type — check the manual.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Spark plugs",
+      "interval": "Every 60,000–120,000 mi",
+      "note": "Iridium plugs last longest.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Coolant",
+      "interval": "First ~100,000 mi, then every ~50,000",
+      "note": "Use the correct coolant type for the vehicle.",
+      "source": null,
+      "verified": false
+    }
+  ],
+  "hybrid": [
+    {
+      "service": "Hybrid system check",
+      "interval": "Every 12 mo",
+      "note": "Have a shop scan the hybrid battery and inverter.",
+      "source": null,
+      "verified": false
+    },
+    {
+      "service": "Inverter coolant",
+      "interval": "Check at ~100,000 mi",
+      "note": "Separate loop from the engine coolant.",
+      "source": null,
+      "verified": false
+    }
+  ],
+  "fourWheel": [
+    {
+      "service": "Differential & transfer case fluid",
+      "interval": "Every 30,000–60,000 mi",
+      "note": "More often if towing or off-roading.",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

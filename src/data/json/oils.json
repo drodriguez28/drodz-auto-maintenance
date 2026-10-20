@@ -1,0 +1,640 @@
+{
+  "engines": {
+    "toyota": {
+      "camry": [
+        {
+          "years": [
+            2000,
+            2006
+          ],
+          "engine": "4-cyl & V6",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2007,
+            2017
+          ],
+          "engine": "4-cyl & V6",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "alt": "5W-20 also OK on 2007–2011",
+          "check": true,
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2018,
+            2026
+          ],
+          "engine": "2.5L 4-cyl / hybrid",
+          "viscosity": "0W-16",
+          "spec": "API SP / ILSAC GF-6B full synthetic",
+          "source": "https://lubesngreases.com/?p=4680",
+          "verified": false
+        },
+        {
+          "years": [
+            2018,
+            2024
+          ],
+          "engine": "3.5L V6",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "source": null,
+          "verified": false
+        }
+      ],
+      "corolla": [
+        {
+          "years": [
+            2000,
+            2008
+          ],
+          "engine": "1.8L",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "check": true,
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2009,
+            2019
+          ],
+          "engine": "1.8L / 2.4L",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "alt": "5W-20 also OK on 2009–2013",
+          "check": true,
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2020,
+            2026
+          ],
+          "engine": "2.0L",
+          "viscosity": "0W-16",
+          "spec": "API SP / ILSAC GF-6B full synthetic",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "prius": [
+        {
+          "years": [
+            2001,
+            2009
+          ],
+          "engine": "1.5L hybrid",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "check": true,
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2010,
+            2015
+          ],
+          "engine": "1.8L hybrid",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2016,
+            2026
+          ],
+          "engine": "Hybrid",
+          "viscosity": "0W-16",
+          "spec": "API SP / ILSAC GF-6B full synthetic",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "rav4": [
+        {
+          "years": [
+            2000,
+            2005
+          ],
+          "engine": "All engines",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2006,
+            2008
+          ],
+          "engine": "2.4L / 3.5L V6",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "check": true,
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2009,
+            2018
+          ],
+          "engine": "2.5L / 3.5L V6",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2019,
+            2026
+          ],
+          "engine": "2.5L",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "highlander": [
+        {
+          "years": [
+            2001,
+            2007
+          ],
+          "engine": "All engines",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2008,
+            2026
+          ],
+          "engine": "All gas engines",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "4runner": [
+        {
+          "years": [
+            2000,
+            2009
+          ],
+          "engine": "V6 / V8",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2010,
+            2026
+          ],
+          "engine": "4.0L V6",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "alt": "5W-30 also listed on some years",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "tacoma": [
+        {
+          "years": [
+            2000,
+            2015
+          ],
+          "engine": "All engines",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2016,
+            2026
+          ],
+          "engine": "2.7L / 3.5L V6",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "tundra": [
+        {
+          "years": [
+            2000,
+            2006
+          ],
+          "engine": "4.7L V8",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2007,
+            2021
+          ],
+          "engine": "4.6L / 5.7L V8",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "alt": "5W-20 also OK on early years",
+          "check": true,
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2022,
+            2026
+          ],
+          "engine": "3.4L twin-turbo V6",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "sienna": [
+        {
+          "years": [
+            2000,
+            2006
+          ],
+          "engine": "3.0L / 3.3L V6",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2007,
+            2010
+          ],
+          "engine": "3.5L V6",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "alt": "5W-20 also OK",
+          "check": true,
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2011,
+            2020
+          ],
+          "engine": "3.5L V6",
+          "viscosity": "0W-20",
+          "spec": "API SP / ILSAC GF-6A full synthetic",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2021,
+            2026
+          ],
+          "engine": "2.5L hybrid",
+          "viscosity": "0W-16",
+          "spec": "API SP / ILSAC GF-6B full synthetic",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ]
+    },
+    "gmc": {
+      "sierra-1500": [
+        {
+          "years": [
+            2000,
+            2018
+          ],
+          "engine": "V6 / V8 gas",
+          "viscosity": "5W-30",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2019,
+            2026
+          ],
+          "engine": "5.3L / 6.2L V8",
+          "viscosity": "0W-20",
+          "spec": "API SP + dexos1 Gen 3 approved (look for the dexos1 logo)",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "sierra-2500hd": [
+        {
+          "years": [
+            2001,
+            2026
+          ],
+          "engine": "6.0L gas V8",
+          "viscosity": "5W-30",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "check": true,
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2001,
+            2026
+          ],
+          "engine": "6.6L Duramax diesel",
+          "viscosity": "5W-40",
+          "spec": "Diesel engine oil, API CK-4 (check dexos2 on the label)",
+          "diesel": true,
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "canyon": [
+        {
+          "years": [
+            2004,
+            2012
+          ],
+          "engine": "All engines",
+          "viscosity": "5W-30",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2015,
+            2022
+          ],
+          "engine": "2.5L / 3.6L V6",
+          "viscosity": "5W-30",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2023,
+            2026
+          ],
+          "engine": "2.7L turbo",
+          "viscosity": "0W-20",
+          "spec": "API SP + dexos1 Gen 3 approved (look for the dexos1 logo)",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "yukon": [
+        {
+          "years": [
+            2000,
+            2020
+          ],
+          "engine": "V8",
+          "viscosity": "5W-30",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2021,
+            2026
+          ],
+          "engine": "5.3L / 6.2L V8",
+          "viscosity": "0W-20",
+          "spec": "API SP + dexos1 Gen 3 approved (look for the dexos1 logo)",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "yukon-xl": [
+        {
+          "years": [
+            2000,
+            2020
+          ],
+          "engine": "V8",
+          "viscosity": "5W-30",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2021,
+            2026
+          ],
+          "engine": "5.3L / 6.2L V8",
+          "viscosity": "0W-20",
+          "spec": "API SP + dexos1 Gen 3 approved (look for the dexos1 logo)",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "acadia": [
+        {
+          "years": [
+            2007,
+            2016
+          ],
+          "engine": "3.6L V6",
+          "viscosity": "5W-30",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2017,
+            2026
+          ],
+          "engine": "2.5L / 3.6L V6",
+          "viscosity": "0W-20",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "terrain": [
+        {
+          "years": [
+            2010,
+            2017
+          ],
+          "engine": "2.4L / V6",
+          "viscosity": "5W-30",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "source": null,
+          "verified": false
+        },
+        {
+          "years": [
+            2018,
+            2026
+          ],
+          "engine": "Turbo 4-cyl",
+          "viscosity": "0W-20",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "envoy": [
+        {
+          "years": [
+            2002,
+            2009
+          ],
+          "engine": "4.2L inline-6 / V8",
+          "viscosity": "5W-30",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "source": null,
+          "verified": false
+        }
+      ],
+      "safari": [
+        {
+          "years": [
+            2000,
+            2005
+          ],
+          "engine": "4.3L V6",
+          "viscosity": "5W-30",
+          "spec": "API SP / ILSAC GF-6A",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ],
+      "savana": [
+        {
+          "years": [
+            2000,
+            2026
+          ],
+          "engine": "Gas engines",
+          "viscosity": "5W-30",
+          "spec": "API SP + dexos1 approved (look for the dexos1 logo)",
+          "check": true,
+          "source": null,
+          "verified": false
+        }
+      ]
+    }
+  },
+  "brands": {
+    "under100k": [
+      {
+        "brand": "Mobil 1 Full Synthetic",
+        "rating": "best",
+        "note": "Widely sold at Walmart, auto parts stores and Costco."
+      },
+      {
+        "brand": "Pennzoil Platinum Full Synthetic",
+        "rating": "good",
+        "note": "Easy to find at any store."
+      },
+      {
+        "brand": "Valvoline Advanced Full Synthetic",
+        "rating": "good",
+        "note": "Often a bit cheaper per quart."
+      },
+      {
+        "brand": "Castrol EDGE",
+        "rating": "good",
+        "note": "Full synthetic, easy to find."
+      },
+      {
+        "brand": "Super Tech Full Synthetic (Walmart)",
+        "rating": "okay",
+        "note": "Budget pick. Meets the spec for less money."
+      }
+    ],
+    "over100k": [
+      {
+        "brand": "Valvoline MaxLife Full Synthetic",
+        "rating": "best",
+        "note": "High-mileage formula with seal conditioners."
+      },
+      {
+        "brand": "Mobil 1 High Mileage",
+        "rating": "good",
+        "note": "Full synthetic, easy to find."
+      },
+      {
+        "brand": "Pennzoil High Mileage",
+        "rating": "good",
+        "note": "Easy to find at any store."
+      },
+      {
+        "brand": "Castrol GTX High Mileage",
+        "rating": "good",
+        "note": "Synthetic-blend, budget friendly."
+      },
+      {
+        "brand": "Super Tech High Mileage (Walmart)",
+        "rating": "okay",
+        "note": "Budget pick."
+      }
+    ],
+    "diesel": [
+      {
+        "brand": "Shell Rotella T6 5W-40",
+        "rating": "best",
+        "note": "Full synthetic diesel oil, sold at most stores."
+      },
+      {
+        "brand": "Mobil Delvac 1 5W-40",
+        "rating": "good",
+        "note": "Full synthetic diesel oil."
+      }
+    ]
+  }
+}

@@ -4,6 +4,9 @@ import { getMake, getModel, getSchedule } from "../data/vehicles";
 import { getGuides, yearsLabel } from "../data/guides";
 import { getOilEngines } from "../data/oils";
 import { OilSection } from "../reuse/OilSection";
+import { Collapsible } from "../reuse/Collapsible";
+import { BrakeSection } from "../reuse/BrakeSection";
+import { getBrakes } from "../data/brakes";
 import { Badge } from "../reuse/Badge";
 
 // Handles three URL depths:
@@ -76,6 +79,7 @@ function Vehicle() {
   const schedule = getSchedule(make, model);
   const videos = getGuides(make, model, Number(year));
   const oilEngines = getOilEngines(make, model, Number(year));
+  const brakes = getBrakes(make, model, Number(year));
 
   return (
     <div className="mx-auto mt-10 max-w-5xl px-4">
@@ -105,36 +109,59 @@ function Vehicle() {
         </table>
       </div>
 
-      <OilSection engines={oilEngines} modelName={modelData.name} />
+      <section className="mt-12 text-left">
+        <h2 className="mb-6 text-3xl font-bold text-white">Guides</h2>
+        <div className="flex flex-col gap-4">
+          {oilEngines.length > 0 && (
+            <Collapsible
+              title="Engine Oil"
+              subtitle="What oil to use and which brands to buy"
+            >
+              <OilSection engines={oilEngines} modelName={modelData.name} />
+            </Collapsible>
+          )}
 
-      {videos.length > 0 && (
-        <section className="mt-12 text-left">
-          <h2 className="mb-6 text-3xl font-bold text-white">How-to Videos</h2>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {videos.map((v) => (
-              <div key={v.id} className="overflow-hidden rounded-xl border border-garage-700 bg-garage-800 shadow-lg">
-                <div className="aspect-video">
-                  <iframe
-                    className="h-full w-full"
-                    src={`https://www.youtube-nocookie.com/embed/${v.videoId}`}
-                    title={v.title}
-                    loading="lazy"
-                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
-                <div className="p-4">
-                  <Badge>{v.category}</Badge>
-                  <h3 className="mt-2 text-lg font-bold text-white">{v.title}</h3>
-                  <p className="text-sm text-gray-400">
-                    Fits {yearsLabel(v.years)} · {v.channel}
-                  </p>
-                </div>
+          <Collapsible
+            title="Brakes"
+            subtitle="What to buy: front and rear pads and rotors"
+            badge={brakes.length === 0 ? <Badge tone="gray">Coming soon</Badge> : undefined}
+          >
+            <BrakeSection items={brakes} vehicleName={`${year} ${modelData.name}`} />
+          </Collapsible>
+
+          {videos.length > 0 && (
+            <Collapsible
+              title="How-to Videos"
+              subtitle="Step-by-step repair walkthroughs"
+              badge={<Badge tone="gray">{videos.length}</Badge>}
+            >
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {videos.map((v) => (
+                  <div key={v.id} className="overflow-hidden rounded-xl border border-garage-700 bg-garage-900 shadow-lg">
+                    <div className="aspect-video">
+                      <iframe
+                        className="h-full w-full"
+                        src={`https://www.youtube-nocookie.com/embed/${v.videoId}`}
+                        title={v.title}
+                        loading="lazy"
+                        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
+                    <div className="p-4 text-left">
+                      <Badge>{v.category}</Badge>
+                      <h3 className="mt-2 text-lg font-bold text-white">{v.title}</h3>
+                      <p className="text-sm text-gray-400">
+                        Fits {yearsLabel(v.years)} · {v.channel}
+                      </p>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </section>
-      )}
+            </Collapsible>
+          )}
+        </div>
+      </section>
 
       <p className="mt-6 text-sm text-gray-500">
         General guidance only. Always check your owner's manual for your exact {year} {modelData.name}.

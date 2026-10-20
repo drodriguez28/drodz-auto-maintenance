@@ -1,0 +1,216 @@
+{
+  "toyota": {
+    "name": "Toyota",
+    "models": {
+      "camry": {
+        "name": "Camry",
+        "type": "Sedan",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "source": null,
+        "verified": false
+      },
+      "corolla": {
+        "name": "Corolla",
+        "type": "Sedan",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "source": null,
+        "verified": false
+      },
+      "prius": {
+        "name": "Prius",
+        "type": "Hybrid",
+        "years": {
+          "from": 2001,
+          "to": 2026
+        },
+        "hybrid": true,
+        "source": null,
+        "verified": false
+      },
+      "rav4": {
+        "name": "RAV4",
+        "type": "SUV",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "source": null,
+        "verified": false
+      },
+      "highlander": {
+        "name": "Highlander",
+        "type": "SUV",
+        "years": {
+          "from": 2001,
+          "to": 2026
+        },
+        "source": null,
+        "verified": false
+      },
+      "4runner": {
+        "name": "4Runner",
+        "type": "SUV",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "fourWheel": true,
+        "source": null,
+        "verified": false
+      },
+      "tacoma": {
+        "name": "Tacoma",
+        "type": "Truck",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "fourWheel": true,
+        "source": null,
+        "verified": false
+      },
+      "tundra": {
+        "name": "Tundra",
+        "type": "Truck",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "fourWheel": true,
+        "source": null,
+        "verified": false
+      },
+      "sienna": {
+        "name": "Sienna",
+        "type": "Minivan",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "source": null,
+        "verified": false
+      }
+    }
+  },
+  "gmc": {
+    "name": "GMC",
+    "models": {
+      "sierra-1500": {
+        "name": "Sierra 1500",
+        "type": "Truck",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "fourWheel": true,
+        "source": null,
+        "verified": false
+      },
+      "sierra-2500hd": {
+        "name": "Sierra 2500HD",
+        "type": "Truck",
+        "years": {
+          "from": 2001,
+          "to": 2026
+        },
+        "fourWheel": true,
+        "source": null,
+        "verified": false
+      },
+      "canyon": {
+        "name": "Canyon",
+        "type": "Truck",
+        "years": {
+          "from": 2004,
+          "to": 2026,
+          "skip": [
+            2013,
+            2014
+          ]
+        },
+        "fourWheel": true,
+        "source": null,
+        "verified": false
+      },
+      "yukon": {
+        "name": "Yukon",
+        "type": "SUV",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "fourWheel": true,
+        "source": null,
+        "verified": false
+      },
+      "yukon-xl": {
+        "name": "Yukon XL",
+        "type": "SUV",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "fourWheel": true,
+        "source": null,
+        "verified": false
+      },
+      "acadia": {
+        "name": "Acadia",
+        "type": "SUV",
+        "years": {
+          "from": 2007,
+          "to": 2026
+        },
+        "source": null,
+        "verified": false
+      },
+      "terrain": {
+        "name": "Terrain",
+        "type": "SUV",
+        "years": {
+          "from": 2010,
+          "to": 2026
+        },
+        "source": null,
+        "verified": false
+      },
+      "envoy": {
+        "name": "Envoy",
+        "type": "SUV",
+        "years": {
+          "from": 2002,
+          "to": 2009
+        },
+        "fourWheel": true,
+        "source": null,
+        "verified": false
+      },
+      "savana": {
+        "name": "Savana",
+        "type": "Van",
+        "years": {
+          "from": 2000,
+          "to": 2026
+        },
+        "source": null,
+        "verified": false
+      },
+      "safari": {
+        "name": "Safari",
+        "type": "Van",
+        "years": {
+          "from": 2000,
+          "to": 2005
+        },
+        "source": null,
+        "verified": false
+      }
+    }
+  }
+}

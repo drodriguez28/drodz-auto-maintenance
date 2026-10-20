@@ -23,7 +23,8 @@ The dev server runs on http://localhost:3000.
 
 ## Project layout
 
-- `src/data/vehicles.js` holds the makes, models, year ranges and maintenance schedule data. Add a new make or model here.
+- `src/data/json/` holds all the data as plain JSON (vehicles, schedule, how-to videos, oil guide). Add new data here. See `src/data/json/README.md` for the fields, including `source` and `verified`.
+- `src/data/*.js` are thin helpers that read the JSON for the site.
 - `src/components/` has the pages (`Home`, `Vehicle`), the nav bar and the logo.
 - `src/reuse/` has the shared pieces (`HeroSection`, `InfoCard`, `VehicleSelector`, `FooterFlowbite`).
 

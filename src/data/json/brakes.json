@@ -1,0 +1,40 @@
+[
+  {
+    "id": "corolla-front-pads-dg1210",
+    "make": "toyota",
+    "model": "corolla",
+    "years": [
+      2017,
+      2017
+    ],
+    "position": "front",
+    "part": "Brake pads",
+    "name": "Duralast Gold Disc Brake Pad Set DG1210",
+    "brand": "Duralast Gold (AutoZone)",
+    "rating": null,
+    "store": "AutoZone",
+    "url": "https://www.autozone.com/p/duralast-gold-disc-brake-pad-set-dg1210/906340",
+    "note": "Front pads. Confirm the fit with AutoZone's vehicle lookup before buying.",
+    "source": "https://www.autozone.com/p/duralast-gold-disc-brake-pad-set-dg1210/906340",
+    "verified": false
+  },
+  {
+    "id": "corolla-rear-pads-dg1354",
+    "make": "toyota",
+    "model": "corolla",
+    "years": [
+      2017,
+      2017
+    ],
+    "position": "rear",
+    "part": "Brake pads",
+    "name": "Duralast Gold Disc Brake Pad Set DG1354",
+    "brand": "Duralast Gold (AutoZone)",
+    "rating": null,
+    "store": "AutoZone",
+    "url": "https://www.autozone.com/p/duralast-gold-disc-brake-pad-set-dg1354/237442",
+    "note": "Rear pads. Confirm the fit with AutoZone's vehicle lookup before buying.",
+    "source": "https://www.autozone.com/p/duralast-gold-disc-brake-pad-set-dg1354/237442",
+    "verified": false
+  }
+]

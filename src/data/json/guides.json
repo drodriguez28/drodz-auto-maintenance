@@ -1,0 +1,137 @@
+[
+  {
+    "id": "camry-maint-light-reset",
+    "make": "toyota",
+    "model": "camry",
+    "years": [
+      2020,
+      2024
+    ],
+    "title": "Reset the maintenance light",
+    "category": "Reset",
+    "videoId": "P_FO3CMDu5s",
+    "channel": "Gearmo Auto",
+    "source": "https://www.youtube.com/watch?v=P_FO3CMDu5s",
+    "verified": true
+  },
+  {
+    "id": "camry-front-pads-rotors",
+    "make": "toyota",
+    "model": "camry",
+    "years": [
+      2018,
+      2024
+    ],
+    "title": "Replace the front brake pads & rotors",
+    "category": "Brakes",
+    "videoId": "ocQuRgMCzM4",
+    "channel": "603 Mechanic vids",
+    "source": "https://www.youtube.com/watch?v=ocQuRgMCzM4",
+    "verified": true
+  },
+  {
+    "id": "camry-oil-change-reset",
+    "make": "toyota",
+    "model": "camry",
+    "years": [
+      2018,
+      2023
+    ],
+    "title": "Oil change & maintenance light reset",
+    "category": "Oil & Filters",
+    "videoId": "udIAjEA_fq4",
+    "channel": "603 Mechanic vids",
+    "source": "https://www.youtube.com/watch?v=udIAjEA_fq4",
+    "verified": true
+  },
+  {
+    "id": "corolla-license-plate-lights",
+    "make": "toyota",
+    "model": "corolla",
+    "years": [
+      2014,
+      2017
+    ],
+    "title": "Replace the rear license plate lights",
+    "category": "Lighting",
+    "videoId": "4Fuf0yzM054",
+    "channel": "Zafar Karimov",
+    "source": "https://www.youtube.com/watch?v=4Fuf0yzM054",
+    "verified": true
+  },
+  {
+    "id": "corolla-serpentine-belt",
+    "make": "toyota",
+    "model": "corolla",
+    "years": [
+      2014,
+      2019
+    ],
+    "title": "Replace the serpentine belt (1.8L 2ZR-FE)",
+    "category": "Belts",
+    "videoId": "LIMqf2WJN48",
+    "channel": "Clever Fix",
+    "source": "https://www.youtube.com/watch?v=LIMqf2WJN48",
+    "verified": true
+  },
+  {
+    "id": "corolla-oil-change-air-filters",
+    "make": "toyota",
+    "model": "corolla",
+    "years": [
+      2017,
+      2017
+    ],
+    "title": "Oil change & air filter replacement",
+    "category": "Oil & Filters",
+    "videoId": "oxwIQA-yPLk",
+    "channel": "Daily Maintenance",
+    "source": "https://www.youtube.com/watch?v=oxwIQA-yPLk",
+    "verified": true
+  },
+  {
+    "id": "corolla-maint-light-reset",
+    "make": "toyota",
+    "model": "corolla",
+    "years": [
+      2017,
+      2018
+    ],
+    "title": "Reset the maintenance light",
+    "category": "Reset",
+    "videoId": "fbTtVqxM8IA",
+    "channel": "Lehew",
+    "source": "https://www.youtube.com/watch?v=fbTtVqxM8IA",
+    "verified": true
+  },
+  {
+    "id": "corolla-key-fob-battery",
+    "make": "toyota",
+    "model": "corolla",
+    "years": [
+      2014,
+      2019
+    ],
+    "title": "Replace the key fob battery",
+    "category": "Electrical",
+    "videoId": "h_RvKLb9CWY",
+    "channel": "PYR Automotive",
+    "source": "https://www.youtube.com/watch?v=h_RvKLb9CWY",
+    "verified": true
+  },
+  {
+    "id": "corolla-front-brake-pads",
+    "make": "toyota",
+    "model": "corolla",
+    "years": [
+      2017,
+      2017
+    ],
+    "title": "Replace the front brake pads",
+    "category": "Brakes",
+    "videoId": "ZMrEsA5JevM",
+    "channel": "UNLEASHED",
+    "source": "https://www.youtube.com/watch?v=ZMrEsA5JevM",
+    "verified": true
+  }
+]
